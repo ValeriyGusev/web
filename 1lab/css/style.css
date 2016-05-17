@@ -1,0 +1,64 @@
+body {
+	background: url("../pictures/background.jpg") no-repeat #000000;/*Фон*/
+	background-size: cover;/*Маштабирование фона*/
+}
+.shapka {
+	position: fixed; /*Фиксированое положение*/
+	right: 0; top: 0; /*Положение*/
+	padding: 10px;/*Значение полей вокруг содержимого элемента*/
+	width: 100%;/*Ширина слоя*/
+	background: url("../pictures/header.jpg");
+	background-size: cover;
+}
+
+.button {
+
+	margin-left: 30px;
+  	display: inline-block;
+  	color: white;
+  	padding: .5em 2em;
+  	outline: none;/*Отображение границы*/
+  	border-width: 2px 0;/*Cтиль границы вокруг элемента*/
+  	border-style: solid none; 
+  	border-color: #F4A460;
+  	border-radius: 12px;
+  	transition: 0,2s;
+}
+.button:hover { 
+	background: url("../pictures/button.jpg"); 
+	background-size: cover;
+}
+
+
+.article {
+	margin-top: 165px;
+	font-family: segoe script, Monospace;
+	color: #EEE8AA;
+	text-shadow: #000000 0 0 20px;
+}
+
+section {
+	text-indent: 30px;
+	text-align: justify;
+	font-family: segoe script, Monospace;
+	color: #FFE4E1;
+	text-shadow: #000000 0 0 20px;
+}
+
+.st {
+	text-align: right;
+	font-family: segoe script, Monospace;
+	color: #FFE4E1;
+	text-shadow: #000000 0 0 20px;
+}
+
+.pol {
+    position: fixed;
+	bottom: 0;
+    padding: 5px; 
+    width: 100%; 
+    font-size:12px;
+    text-align:center;
+    font-family: gabriola;
+    color: #FAEBD7;
+}
